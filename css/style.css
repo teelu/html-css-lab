@@ -1,0 +1,174 @@
+html, body, figure {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Arial;
+}
+body {
+	background:url("../images/bg_body.jpg");
+}
+
+nav {
+	color:white;
+}
+
+nav ul {
+	padding:33px 0;
+	margin:0;
+}
+
+nav li {
+	display:inline;
+}
+
+nav li a {
+	margin:25px 0;
+	padding:33px 17px;
+	text-decoration: none;
+	color: lightgray;
+	font-family: Helvetica;
+	font-size:17px;
+}
+
+nav li a:hover {
+	background:url("../images/bg_nav_rollover.png");
+	background-repeat:repeat-x;
+	color:lightblue;
+}
+
+section {
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size:24px;
+	font-weight: 400;
+}
+
+footer {
+	background-color: black;
+	color:gray;
+	clear:both;
+	padding:50px 0;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer h1 {
+	color:white;
+}
+
+.social-media {
+	height:48px;
+	width:48px;
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+.box {
+	width:30%;
+	float:left;
+	margin-left:40px;
+}
+.box:first-child {
+	width:30%;
+	float:left;
+	margin-left:0;
+}
+
+#wrapper {
+	background:url("../images/bg_wrapper.png");
+	background-repeat:repeat-x;
+}
+
+#content {
+	margin:0 16.5%;
+}
+
+#banner {
+	margin-top:3.5%;
+}
+
+#logo {
+	float:left;
+}
+#social-media-grouping {
+	text-align: right;
+	width:15%;
+}
+
+
+#social-media-grouping ul li {
+	display:inline;
+	text-align: right;
+	margin:5px 6px;
+}
+
+
+
+
+#linked-in {
+	background:url("../images/linkedin-grey.png");
+}
+#linked-in:hover {
+	background:url("../images/linkedin.png");
+}
+#twitter {
+	background:url("../images/twitter-grey.png");
+}
+#twitter:hover {
+	background:url("../images/twitter.png");
+}
+#facebook {
+	background:url("../images/facebook-grey.png");
+}
+#facebook:hover {
+	background:url("../images/facebook.png");
+}
+#rss {
+	background:url("../images/rss-grey.png");
+}
+#rss:hover {
+	background:url("../images/rss.png");
+}
+
+#photobanner {
+	margin-top:20px;
+	float:left;
+	height:100%;
+}
+#request-quote {
+	border:1px solid lightgray;
+	border-bottom-color: white;
+	border-right-color: white;
+	padding:10px 5px 20px 20px;
+}
+#request-quote p {
+	margin-right:250px;
+	font-size:18px;
+	font-family:helvetica;
+	margin:0;
+}
+#request-quote img {
+	float:right;
+	margin: 8px 13px 5px;
+}
+
+#home-boxes img {
+	border: 7.5px lightgray solid;
+}
+
+#blogroll {
+	margin:auto;
+	width:25%;
+}
+#text-widget {
+	margin:auto;
+	width:28%;
+}
+#meta-widget {
+	margin:auto;
+	width:25%;
+}
