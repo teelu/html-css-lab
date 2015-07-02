@@ -26,7 +26,7 @@ p {
 }
 
 /* LOGO with image replacement for the text */
-h1 {
+#busy-logo {
   font-size: 25px;
   background: url('../images/logo.png') no-repeat;
   margin-top: 32px;
@@ -63,12 +63,14 @@ h4 {
 
 #wrapper {
   background: url(../images/bg_wrapper.png) repeat-x;
+  /* repeat-x : to repeat this image horizontally*/
 }
 
 #container {
   /* Centering the container */
   margin: 0 auto;
   width: 960px;
+  /*background-color: blue;*/
 }
 
 /*----------------------------------------------------------------------------- 
@@ -80,7 +82,9 @@ nav ul li{
 }
 
 nav ul li a {
+  /*<a> or anchor is an inline element by default. An inline element cannot have width or height. However, we do want width and height. So, you need to either make it an 'inline-block' or 'block'*/
   display: block;
+
   height: 49px;
   color: #ccc;
   padding: 36px 18px 0 18px;
@@ -94,6 +98,20 @@ nav ul li a:hover {
   /* The background image will be repeated only horizontally */
   color: #96DDFC;
 }
+
+ul#parent {
+  font-size: 30px;
+}
+
+/*indirect descendant*/
+/*ul#parent li {
+  color: red;
+}*/
+
+/* direct descendant*/
+/*ul#parent > li {
+  color: red;
+}*/
 
 /*----------------------------------------------------------------------------- 
 =04 SOCIAL MEDIA  
@@ -256,13 +274,17 @@ footer {
 
 #footer-widgets-inner .box-footer ul li a {
   text-decoration: none;
-  color: #515151;
+  color: white;
   font-size: 13px;
   font-style: normal;
 }
 
 #footer-widgets-inner .box-footer ul li a:hover {
   color: #ccc;
+}
+
+#footer-widgets-inner .box-footer .textwidget {
+  color: white;
 }
 
 /* Copyright */
@@ -302,4 +324,27 @@ footer {
 
 .clear {
   clear: both;  
+}
+
+h1 {
+  A
+}
+
+h2 {
+  A
+}
+
+multiple selector
+h1, h2 {
+  A
+}
+
+indirect descendant
+h1 h2 {
+  A
+}
+
+direct descendant
+h1 > h2 {
+  A
 }
