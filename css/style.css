@@ -57,7 +57,7 @@ footer ul {
 }
 
 footer h1 {
-	color:white;
+	color:lightgray;
 }
 
 .social-media {
@@ -78,13 +78,31 @@ footer h1 {
 	margin-left:0;
 }
 
+.widget {
+	margin:auto;
+	width:33%;
+	float:left;
+}
+
+.widget li {
+	border-bottom: 1px solid lightgray ;
+	padding-bottom:5px;
+	margin: 10px 40px 0 -40px ;
+}
+
+.widget li:first-child {
+	border-top: 1px solid lightgray;
+	padding-top: 5px;
+}
+
+
+.content {
+	margin:0 16.5%;
+}
+
 #wrapper {
 	background:url("../images/bg_wrapper.png");
 	background-repeat:repeat-x;
-}
-
-#content {
-	margin:0 16.5%;
 }
 
 #banner {
@@ -160,15 +178,5 @@ footer h1 {
 	border: 7.5px lightgray solid;
 }
 
-#blogroll {
-	margin:auto;
-	width:25%;
-}
-#text-widget {
-	margin:auto;
-	width:28%;
-}
-#meta-widget {
-	margin:auto;
-	width:25%;
-}
+
+
