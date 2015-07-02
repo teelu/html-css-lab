@@ -1,33 +1,7 @@
-###Suggested elements/ids/classes to include
+#HTML & CSS Lab (complete)
 
-These are some ideas for divs you might want to include in your page structure -- the names aren't super important (you can change them if you'd like), but might be helpful for indicating what each div does/where it goes.
+You can find the lab here: https://github.com/HK-WDI-November-2014/html-css-project
 
-``` 
-#wrapper 
-#container 
+Great work on the lab today! Here's a possible solution; feel free to take a peek at the code. 
 
-<header> 
-<nav>
-
-#main-content 
-#social-media 
-
-.photobanner 
-.imageshadow
-
-#blurb 
-
-#home-boxes 
-    .home-box
-    .home-box
-    .home-box
-
-<footer> 
-    .box-footer 
-         .blogroll
-    .box-footer 
-         .textwidget 
-
-#copyright 
-#companybottom
-```
+Don't stress if your solution looks different -- there are many ways to implement certain things (for example, this solution uses sprites for the social media images -- we're introducing those next week, so it's cool if you used single images for those icons!).
