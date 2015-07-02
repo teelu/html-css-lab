@@ -1,6 +1,10 @@
-#HTML & CSS Lab (complete)
+**[Answer Branch]**
 
-You can find the lab here: https://github.com/HK-WDI-November-2014/html-css-project
+#### Solution: Busy Hand (HTML/CSS Lab)
+- [Busy Hand on BitBalloon](http://html-css-lab.bitballoon.com/)
+- [Screenshots](screenshots)
+
+You can find the lab here in the `master` branch.
 
 Great work on the lab today! Here's a possible solution; feel free to take a peek at the code. 
 
